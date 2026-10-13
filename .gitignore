@@ -1,0 +1,41 @@
+
+# -----------------------------------
+# Python Virtual Environment
+# -----------------------------------
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# -----------------------------------
+# API Keys and Secrets
+# -----------------------------------
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# -----------------------------------
+# Local SQLite Database
+# -----------------------------------
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# -----------------------------------
+# Local Backup Files
+# -----------------------------------
+app_backup.py
+app_before_streaming.py
+app_final_backup.py
+
+# -----------------------------------
+# VS Code and Operating System Files
+# -----------------------------------
+.vscode/
+.DS_Store
+Thumbs.db
